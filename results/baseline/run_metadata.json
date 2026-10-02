@@ -1,0 +1,35 @@
+{
+  "python": "3.12.13",
+  "platform": "Darwin",
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "joblib": "1.6.0"
+  },
+  "seed": 42,
+  "model": "RandomForestClassifier",
+  "trees": 200,
+  "min_samples_leaf": 3,
+  "class_weight": "balanced",
+  "n_jobs": 1,
+  "threshold_rule": "validation score quantile .8, linear; score >= threshold",
+  "capacities": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "tie_rule": "row_id ascending",
+  "source_sha256": {
+    "src/quality_lab/__init__.py": "d67d731036292ed763888981a0de80639645ddf9b09dfc4f70d4441f4b7a9d60",
+    "src/quality_lab/data.py": "fb729d0919d7a1fb1684a398a9b48d11a12d73b3ea7d419ccb97f4726105c7dc",
+    "src/quality_lab/decision.py": "5b4730ffbcf2adf843a0d199b4021df3ea48a4a0addac1ed3e0539c278f6a48f",
+    "src/quality_lab/pipeline.py": "fc8f1fad123a089a1f840906df08d3f37695f1cb6dc37c3beb89199c5736e3a0",
+    "scripts/run_analysis.py": "f356058c7ef5b8c6fb3091eda9001a3f466bf88659253d293ccc985b284496a0",
+    "scripts/verify_reproduction.py": "7544ae159d0582db547855415dad9b6b1e4a0bb46dffe2816be8cc83d841e361",
+    "docs/ANALYSIS_PROTOCOL.md": "7c0554aa942a8dcd29fed8f1e5c2b049f4645d135bf1b7ab42657b33334888c1",
+    "requirements-lock.txt": "a714428a4f2d95e0ba6eccaad0e4b399074304196f296faeb52fec4916f471d6"
+  }
+}
